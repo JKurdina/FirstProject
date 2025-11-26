@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "year": 2018,
+    "pages": 412
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "pages": 464
+  },
+  {
+    "title": "Clean Architecture",
+    "author": "Robert C. Martin",
+    "year": 2017,
+    "pages": 432
+  },
+  {
+    "title": "Head First Design Patterns",
+    "author": "Elisabeth Robson & Eric Freeman",
+    "year": 2020,
+    "pages": 672
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas & Andrew Hunt",
+    "year": 2019,
+    "pages": 352
+  },
+  {
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "year": 2018,
+    "pages": 448
+  },
+  {
+    "title": "Android Programming: The Big Nerd Ranch Guide",
+    "author": "Bill Phillips & Chris Stewart",
+    "year": 2022,
+    "pages": 688
+  },
+  {
+    "title": "Kotlin for Android Developers",
+    "author": "Antonio Leiva",
+    "year": 2016,
+    "pages": 250
+  },
+  {
+    "title": "Head First Android Development",
+    "author": "Dawn Griffiths & David Griffiths",
+    "year": 2022,
+    "pages": 784
+  },
+  {
+    "title": "Java: The Complete Reference",
+    "author": "Herbert Schildt",
+    "year": 2022,
+    "pages": 1248
+  },
+  {
+    "title": "Domain-Driven Design",
+    "author": "Eric Evans",
+    "year": 2003,
+    "pages": 560
+  },
+  {
+    "title": "You Don't Know JS: Scope & Closures",
+    "author": "Kyle Simpson",
+    "year": 2014,
+    "pages": 98
+  },
+  {
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "year": 2018,
+    "pages": 472
+  },
+  {
+    "title": "Flutter in Action",
+    "author": "Eric Windmill",
+    "year": 2020,
+    "pages": 375
+  },
+  {
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "year": 2017,
+    "pages": 611
+  },
+  {
+    "title": "Grokking Algorithms",
+    "author": "Aditya Bhargava",
+    "year": 2016,
+    "pages": 256
+  },
+  {
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "year": 2022,
+    "pages": 1312
+  },
+  {
+    "title": "Cracking the Coding Interview",
+    "author": "Gayle Laakmann McDowell",
+    "year": 2015,
+    "pages": 706
+  },
+  {
+    "title": "The Art of Computer Programming",
+    "author": "Donald Knuth",
+    "year": 2011,
+    "pages": 3168
+  },
+  {
+    "title": "Code Complete",
+    "author": "Steve McConnell",
+    "year": 2004,
+    "pages": 960
+  },
+  {
+    "title": "Working Effectively with Legacy Code",
+    "author": "Michael C. Feathers",
+    "year": 2004,
+    "pages": 464
+  },
+  {
+    "title": "Test-Driven Development: By Example",
+    "author": "Kent Beck",
+    "year": 2002,
+    "pages": 240
+  },
+  {
+    "title": "Extreme Programming Explained",
+    "author": "Kent Beck",
+    "year": 2004,
+    "pages": 224
+  },
+  {
+    "title": "You Don't Know JS: Async & Performance",
+    "author": "Kyle Simpson",
+    "year": 2015,
+    "pages": 296
+  },
+  {
+    "title": "Learning Python",
+    "author": "Mark Lutz",
+    "year": 2013,
+    "pages": 1600
+  }
+]

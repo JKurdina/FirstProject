@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Меркурий",
+    "diameter_km": 4879,
+    "distance_from_sun_mkm": 57.9,
+    "moons": 0,
+    "day_length_hours": 1408,
+    "fact": "Самая близкая планета к Солнцу и самая быстрая на орбите"
+  },
+  {
+    "name": "Венера",
+    "diameter_km": 12104,
+    "distance_from_sun_mkm": 108.2,
+    "moons": 0,
+    "day_length_hours": 5832,
+    "fact": "Самая горячая планета — средняя температура +462°C"
+  },
+  {
+    "name": "Земля",
+    "diameter_km": 12742,
+    "distance_from_sun_mkm": 149.6,
+    "moons": 1,
+    "day_length_hours": 24,
+    "fact": "Единственная известная планета с жизнью"
+  },
+  {
+    "name": "Марс",
+    "diameter_km": 6779,
+    "distance_from_sun_mkm": 227.9,
+    "moons": 2,
+    "day_length_hours": 24.65,
+    "fact": "Красная планета — на поверхности много оксида железа"
+  },
+  {
+    "name": "Юпитер",
+    "diameter_km": 139820,
+    "distance_from_sun_mkm": 778.5,
+    "moons": 95,
+    "day_length_hours": 10,
+    "fact": "Самая большая планета Солнечной системы — в ней поместится 1300 Земель"
+  },
+  {
+    "name": "Сатурн",
+    "diameter_km": 116460,
+    "distance_from_sun_mkm": 1434,
+    "moons": 146,
+    "day_length_hours": 10.7,
+    "fact": "Известен потрясающими кольцами изо льда и камней"
+  },
+  {
+    "name": "Уран",
+    "diameter_km": 50724,
+    "distance_from_sun_mkm": 2871,
+    "moons": 27,
+    "day_length_hours": 17.2,
+    "fact": "Единственная планета, вращающаяся «лёжа на боку»"
+  },
+  {
+    "name": "Нептун",
+    "diameter_km": 49244,
+    "distance_from_sun_mkm": 4515,
+    "moons": 16,
+    "day_length_hours": 16.1,
+    "fact": "Самые сильные ветры в Солнечной системе — до 2100 км/ч"
+  }
+]

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Files</string>
+    <string name="_2023_350">2023 • 350 стр.</string>
+    <string name="author">Автор</string>
+    <string name="name_book">Название книги</string>
+    <string name="intent">Список книг получен через Intent</string>
+    <string name="open2">Открыть вторую Activity</string>
+    <string name="raw_books_json">Загрузить список книг</string>
+    <string name="list_planets">Загрузить список планет</string>
+    <string name="distance">Расстояние от Солнца</string>
+    <string name="distance1">149.6 млн км</string>
+    <string name="moons">Спутники</string>
+    <string name="fact">Единственная известная планета с жизнью</string>
+    <string name="diameter">12 742 км</string>
+    <string name="diam">Диаметр</string>
+    <string name="Earth">Земля</string>
+    <string name="day_length">Продолжительность дня</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#F5F5F5">
+
+
+    <Button
+        android:id="@+id/btnOpenBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/raw_books_json"
+        android:textSize="18sp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnOpenPlanet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_planets"
+        android:textSize="18sp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
