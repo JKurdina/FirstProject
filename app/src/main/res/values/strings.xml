@@ -15,4 +15,7 @@
     <string name="diam">Диаметр</string>
     <string name="Earth">Земля</string>
     <string name="day_length">Продолжительность дня</string>
+    <string name="deleteBook">Удалить книгу</string>
+    <string name="load_image">Загрузка изображения</string>
+    <string name="save_image">Сохранить картинку в галерею</string>
 </resources>
