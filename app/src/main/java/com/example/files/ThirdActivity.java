@@ -6,6 +6,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.BitmapShader;
 import android.graphics.Canvas;
+import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.Shader;
 import android.net.Uri;
@@ -19,7 +20,7 @@ import java.io.OutputStream;
 
 public class ThirdActivity extends Activity {
 
-    private static final int AVATAR_SIZE = 512;
+    private static final int AVATAR_SIZE = 1024;
     private Bitmap avatarBitmap;
 
     @Override
@@ -42,33 +43,37 @@ public class ThirdActivity extends Activity {
     private Bitmap createCircularAvatar(int drawableId) {
         BitmapFactory.Options options = new BitmapFactory.Options();
         options.inJustDecodeBounds = true;
+//        также есть функция получения изображения из файла decodeFile(String pathName)
         BitmapFactory.decodeResource(getResources(), drawableId, options);
 
         options.inJustDecodeBounds = false;
         options.inScaled = false;
         Bitmap original = BitmapFactory.decodeResource(getResources(), drawableId, options);
 
-        int width = original.getWidth();
-        int height = original.getHeight();
-        int size = Math.min(width, height);
+        float scale = Math.max(
+                (float) AVATAR_SIZE / original.getWidth(),
+                (float) AVATAR_SIZE / original.getHeight()
+        );
 
-        int offsetX = (width  - size) / 2;
-        int offsetY = (height - size) / 2;
+        Matrix matrix = new Matrix();
+        matrix.setScale(scale, scale);
 
-        Bitmap squared = Bitmap.createBitmap(original, offsetX, offsetY, size, size);
+        float x = (AVATAR_SIZE - original.getWidth() * scale) / 2;
+        float y = (AVATAR_SIZE - original.getHeight() * scale) / 2;
+        matrix.postTranslate(x, y);
 
         Bitmap result = Bitmap.createBitmap(AVATAR_SIZE, AVATAR_SIZE, Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(result);
+
+        BitmapShader shader = new BitmapShader(original, Shader.TileMode.CLAMP, Shader.TileMode.CLAMP);
+        shader.setLocalMatrix(matrix);
+
         Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        BitmapShader shader = new BitmapShader(squared, Shader.TileMode.CLAMP, Shader.TileMode.CLAMP);
         paint.setShader(shader);
 
-        float radius = AVATAR_SIZE / 2f;
-        canvas.drawCircle(radius, radius, radius, paint);
+        canvas.drawCircle(AVATAR_SIZE/2f, AVATAR_SIZE/2f, AVATAR_SIZE/2f, paint);
 
         original.recycle();
-        squared.recycle();
-
         return result;
     }
 
